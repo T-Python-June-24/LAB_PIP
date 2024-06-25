@@ -15,11 +15,18 @@
 
 
 from art import *
+from colorama import Fore, Back, Style
 
 
 
 phrase1 = text2art("BELIEVE AND ACHEIVE", font= 'block', chr_ignore= True)
-print(phrase1)
+print(Back.LIGHTYELLOW_EX + phrase1)
 
 phrase2 = text2art("HELLO", font= 'sub-zero')#, chr_ignore= True)
-print(phrase2)
+print(Back.RESET + phrase2)
+
+phrase3 = text2art("RAY", font= 'rnd-xlarge')#, chr_ignore= True)
+print(Fore.CYAN + phrase3)
+
+tprint("RAY","rnd-xlarge")
+
