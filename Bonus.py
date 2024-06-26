@@ -1,5 +1,5 @@
 from art import *
-from colorama import Fore, Style, init
+from colorama import *
 
 print(Fore.YELLOW + text2art("KEEP GOING", font='starwars'))
 
