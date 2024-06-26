@@ -9,8 +9,8 @@
 
 
 ## Bonus
-- Come up with different phrases with different art and decoration
-- Use colorama to color the text in the terminal.
+- [x] Come up with different phrases with different art and decoration
+- [x] Use colorama to color the text in the terminal.
 
 
 ### checkout the package on pip
